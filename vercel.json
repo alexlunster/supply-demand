@@ -4,15 +4,5 @@
   "installCommand": "pnpm install --frozen-lockfile",
   "env": {
     "NODE_ENV": "production"
-  },
-  "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "/dist/index.js"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/dist/public/$1"
-    }
-  ]
+  }
 }
